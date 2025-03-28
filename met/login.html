@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Yap - Metin2 Won Market</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="auth-page">
+    <div class="auth-container">
+        <div class="auth-box">
+            <div class="auth-header">
+                <h2>Giriş Yap</h2>
+                <p>Hesabınıza giriş yapın</p>
+            </div>
+            <form id="loginForm" class="auth-form">
+                <div class="form-group">
+                    <i class="fas fa-envelope"></i>
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Şifre" required>
+                </div>
+                <div class="form-options">
+                    <label class="remember-me">
+                        <input type="checkbox"> Beni hatırla
+                    </label>
+                    <a href="#" class="forgot-password">Şifremi unuttum</a>
+                </div>
+                <button type="submit" class="auth-button">Giriş Yap</button>
+                <p class="auth-switch">
+                    Hesabınız yok mu? <a href="register.html">Kayıt ol</a>
+                </p>
+            </form>
+            <a href="index.html" class="back-home">Ana Sayfaya Dön</a>
+        </div>
+    </div>
+    <script src="auth.js"></script>
+</body>
+</html>
